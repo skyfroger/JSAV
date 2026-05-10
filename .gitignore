@@ -1,20 +1,60 @@
-#Temp files
-*~
-#Mac stuff
+```
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+build/
+coverage/
+htmlcov/
+
+# Logs
+*.log
+
+# Environment variables
+.env
+.env.local
+.env.*
+
+# IDE specific
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+.venv/
+venv/
+.env
+
+# TypeScript/JavaScript
+*.tsbuildinfo
+*.js.map
+*.jsx.map
+*.ts.map
+
+# Testing
+.nyc_output/
+coverage/
+.coverage
+.jest/
+
+# OS generated
 .DS_Store
+Thumbs.db
 
-#build directory
-build
-
-#Eclipse settings
-.project
-.settings
-
-#InteliJ IDE settings
-.idea
-
-#Generated files
-src/version.txt
-src/front.js
-src/version.js
-node_modules
+# Cache directories
+.mypy_cache/
+.pytest_cache/
+.npm/
+.yarn/
+.pnp.*
+.pnp.js
+```
